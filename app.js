@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
     res.render('index', {title: 'Заголовок', message: 'Здраствуйте! внизу кот'});
 });
 
-app.get('/page2', function (req, res) {
+app.get('/page3', function (req, res) 
     res.render('page2', {title: 'Страница 2', message: 'Если че сверху был кот'});
 });
 
